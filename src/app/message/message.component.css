@@ -1,0 +1,47 @@
+:host {
+  display: block;
+  padding: 20px;
+  background-color: #f4f4f4;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  max-width: 400px;
+  margin: 20px auto;
+}
+
+h1 {
+  font-size: 2rem;
+  color: #1b6b98;
+  font-family: "Arial", sans-serif;
+  margin-bottom: 15px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #1b6b98;
+  color: white;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #155a75;
+}
+
+button:focus {
+  outline: none;
+}
+
+div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input {
+  margin: 10px;
+  padding: 6px;
+}

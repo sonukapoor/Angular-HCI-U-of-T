@@ -1,0 +1,28 @@
+<div class="row">
+  <div class="column">
+    <h3>HCI Principles</h3>
+    <p>Select the HCI principles you want to highlight:</p>
+    <div class="checkbox-container">
+      <label>
+        <input
+          type="checkbox"
+          (change)="onCheckboxChange('accessibility', $event)"
+        />
+        Accessibility / Usability
+      </label>
+    </div>
+  </div>
+  <div class="column">
+    <h3>SOLID Principles</h3>
+    <p>Select the SOLID principles you want to highlight:</p>
+    <div class="checkbox-container">
+      <label>
+        <input
+          type="checkbox"
+          (change)="onCheckboxChange('modularity', $event)"
+        />
+        Modularity
+      </label>
+    </div>
+  </div>
+</div>

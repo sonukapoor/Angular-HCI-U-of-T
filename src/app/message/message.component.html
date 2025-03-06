@@ -1,0 +1,9 @@
+<div>
+  <h1>{{ message | titlecase }}</h1>
+
+  <input type="text" [(ngModel)]="message" appHighlightOnFocus />
+
+  <!-- Interpolation for data binding -->
+  <button (click)="updateMessage()">Click Me</button>
+  <!-- Event binding -->
+</div>

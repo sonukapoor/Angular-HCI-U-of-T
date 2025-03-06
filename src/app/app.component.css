@@ -1,0 +1,137 @@
+:host {
+  display: block;
+  padding: 20px;
+  text-align: center;
+  margin: 20px auto;
+}
+
+.root {
+  position: relative;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+header img {
+  margin-bottom: 10px;
+}
+
+h1 {
+  font-size: 2rem;
+  color: #1b6b98;
+  font-family: "Arial", sans-serif;
+  margin-bottom: 15px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+section {
+  margin: 15px 0;
+  position: relative;
+}
+
+.footer {
+  margin-top: 20px;
+  font-size: 0.9rem;
+  color: #888;
+  text-align: center;
+  position: relative;
+}
+
+.footer a {
+  color: #1b6b98;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+.checkbox-container {
+  margin-bottom: 20px;
+}
+
+.highlight-border {
+  border: 2px solid #007bff;
+  padding: 10px;
+}
+
+.highlight-accessibility {
+  border: 2px solid #007bff;
+  padding: 10px;
+}
+
+header.highlight-accessibility:after {
+  content: "Semantic HTML <header>";
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 10px;
+  background: green;
+  color: white;
+  font-size: x-large;
+  opacity: 0.5;
+}
+
+main.highlight-accessibility:after {
+  content: "Semantic HTML <main>";
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 10px;
+  background: green;
+  color: white;
+  font-size: x-large;
+  opacity: 0.5;
+}
+
+section.highlight-accessibility:after {
+  content: "Semantic HTML <section>";
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 2px;
+  background: green;
+  color: white;
+  font-size: 10px;
+  opacity: 0.5;
+}
+
+footer.highlight-accessibility:after {
+  content: "Semantic HTML <footer>";
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 2px;
+  padding: 10px;
+  background: green;
+  color: white;
+  font-size: x-large;
+  opacity: 0.5;
+}
+
+.highlight-modularity {
+  border: 2px solid #1d7445;
+  padding: 10px;
+}
+
+.highlight-modularity:after {
+  content: "Modularity";
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 2px;
+  padding: 10px;
+  background: green;
+  color: white;
+  font-size: x-large;
+  opacity: 0.5;
+}
